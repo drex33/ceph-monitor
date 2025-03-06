@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # ceph-monitor
 =======
 ## Ceph Monitor
@@ -23,8 +23,7 @@
 <br>
 
 ## Flow Chart
-![image](/uploads/b467f8ec7844d7d0d270e6753118c5a2/image.png)
-
+![image](https://github.com/user-attachments/assets/417f5600-a038-43ae-9204-46bfc3a66a1c)
 
 1. 인증 모듈에서 토큰요청 / 토큰 수신
 2. 토큰 헤더 탑재하여 헬스체크 API 호출
@@ -41,14 +40,3 @@
 - 조치 시 Resolved 알람 전송됨
 
 - 로그의 경우 docker logs 로 확인
-
-## 시연 화면
-- 기본적인 WARN/ERR 상태 Alert
-![_19B9DD04-CCBE-4F19-B9A5-38ABCDCB07A9_](/uploads/013fb442aa9284ff83106a19e50dd5da/_19B9DD04-CCBE-4F19-B9A5-38ABCDCB07A9_.png)
-
-- Connection Fail / Authentication Fail (mgr 혹은 네트워크 문제)
-![_27DD4EE0-3B92-410F-BC20-8CBE93E016E5_](/uploads/132f3c86392a4eec130a4903107c7b1f/_27DD4EE0-3B92-410F-BC20-8CBE93E016E5_.png)
-
-- Resolved Alert
-![_665FFA5E-344A-4E5E-A214-86E20486425B_](/uploads/2d9f8fabc7bc3dc0745c851a0031368e/_665FFA5E-344A-4E5E-A214-86E20486425B_.png)
->>>>>>> ce5849c (migrate from gitlab)
